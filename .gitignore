@@ -1,0 +1,11 @@
+config
+node_modules
+dist
+/backup
+.DS_Store
+*.log
+.idea
+issue.info
+yarn-error.log
+.cache
+stats.json
