@@ -1,4 +1,5 @@
 config
+/mail/receiversConfig.js
 node_modules
 dist
 /backup
