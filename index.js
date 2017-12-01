@@ -34,7 +34,7 @@ fs.writeFile('/Users/baidu/Documents/test/test/a.json', configString, (err) => {
       console.log(stdout);
     });
     sendMail({
-        html: configString + '<br> zongjun祝您 fanqiang 愉快。'
+        html: configString + '<br> zongjun祝您 fanqiang 愉快。<br>如果你觉得此项目还不错，可以给我点个star。 =='
     });
 });
 console.log(configString);

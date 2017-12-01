@@ -26,3 +26,6 @@ reference：
 ## 2017-12-01 21:53:56 更新
 
 真是搓啊，直接把配置文件用js写好，然后写入、重启ss、发送email。不是更合理吗？还用监听配置文件改变？。。。以后直接进入目录 执行 `node index.js` 就完成了 ss配置文件的写入、重启ss、发送email。真是方便！
+
+
+if you like it, why not give me a star?
