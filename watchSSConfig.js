@@ -18,7 +18,7 @@ fs.watchFile(filePath, (curr, prev) => {
         }
         console.log(data);
         sendMail({
-            html: data + '<br> zongjun祝您生活愉快。'
+            html: data + '<br> zongjun祝您 fanqiang 愉快。'
         });
     });
 });
