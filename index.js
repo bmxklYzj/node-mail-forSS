@@ -20,7 +20,7 @@ let configString =
     "method":"aes-256-cfb"
 }`;
 
-fs.writeFile('/Users/baidu/Documents/test/test/a.json', configString, (err) => {
+fs.writeFile('/etc/shadowsocks.json', configString, (err) => {
     if (err) {
         console.log(err);
     }
