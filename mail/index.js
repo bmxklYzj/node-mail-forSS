@@ -10,9 +10,9 @@ receiversConfig = receiversConfig.join(',');
 
 // create reusable transporter object using the default SMTP transport
 let transporter = nodemailer.createTransport({
-    host: 'smtp.163.com',
-    port: 25,
-    secure: false, // true for 465, false for other ports
+    host: 'smtp.qq.com',
+    port: 465,
+    secure: true, // true for 465, false for other ports
     auth: {
         user: account.user, // generated ethereal user
         pass: account.pass  // generated ethereal password
@@ -24,9 +24,9 @@ let mailOptions = {
     from: `${account.user} <${account.user}>`, // sender address
     to: account.user, // list of receivers
     cc: receiversConfig,
-    subject: '祝你玩得愉快', // Subject line
-    text: '祝你玩得愉快', // plain text body
-    html: '祝你玩得愉快' // html body
+    subject: 'ss配置变更', // Subject line
+    text: 'ss配置变更', // plain text body
+    html: 'ss配置变更' // html body
 };
 
 module.exports = function (sendData) {
