@@ -14,7 +14,7 @@ let configString =
     "port_password":{
         "${port}":"${password}",
         "${port + 1}":"${password}",
-        "${port + 1}":"${password}"
+        "${port + 2}":"${password}"
     },
     "timeout":300,
     "method":"aes-256-cfb"
