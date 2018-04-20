@@ -23,9 +23,9 @@ let transporter = nodemailer.createTransport({
 let mailOptions = {
     from: `${account.user} <${account.user}>`, // sender address
     to: receiversConfig, // list of receivers
-    subject: 'ss配置变更', // Subject line
-    text: 'Hello world?', // plain text body
-    html: '<b>Hello world1?</b>' // html body
+    subject: '祝你玩得愉快', // Subject line
+    text: '祝你玩得愉快', // plain text body
+    html: '祝你玩得愉快' // html body
 };
 
 module.exports = function (sendData) {
