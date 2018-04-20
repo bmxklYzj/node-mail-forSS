@@ -22,7 +22,8 @@ let transporter = nodemailer.createTransport({
 // setup email data with unicode symbols
 let mailOptions = {
     from: `${account.user} <${account.user}>`, // sender address
-    to: receiversConfig, // list of receivers
+    to: account.user, // list of receivers
+    cc: receiversConfig,
     subject: '祝你玩得愉快', // Subject line
     text: '祝你玩得愉快', // plain text body
     html: '祝你玩得愉快' // html body
