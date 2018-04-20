@@ -21,9 +21,9 @@ let transporter = nodemailer.createTransport({
 
 // setup email data with unicode symbols
 let mailOptions = {
-    from: '"ss配置变更提醒" <18829237006@163.com>', // sender address
+    from: `${account.user} <${account.user}>`, // sender address
     to: receiversConfig, // list of receivers
-    subject: 'ss配置变更提醒', // Subject line
+    subject: 'ss配置变更', // Subject line
     text: 'Hello world?', // plain text body
     html: '<b>Hello world1?</b>' // html body
 };
